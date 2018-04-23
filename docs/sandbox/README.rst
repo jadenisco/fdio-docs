@@ -29,8 +29,8 @@ For more information on how to use the Python virtual enviroment check out
 
    python -m pip install --user virtualenv 
    python -m virtualenv env
-   pip install -r etc/requirements.txt
    source env/bin/activate
+   pip install -r etc/requirements.txt
 
 .. note::
 
