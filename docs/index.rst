@@ -24,6 +24,7 @@ A key component is the Vector Packet Processing (VPP) library donated by Cisco.
    gettingstartedsw/index
    gettingstartedk8/index
    gettingstartedopnstk/index
+   api/index
    projects/index
    sandbox/index
 

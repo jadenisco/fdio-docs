@@ -3,15 +3,15 @@
 Sandbox
 =======================
 
-.. toctree::
-
-   sandbox02/index
-
 Repository
 ----------
 
 .. toctree::
 
    README.rst
+
+.. toctree::
+
+   sandbox02/index
 
    
