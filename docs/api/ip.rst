@@ -1,9 +1,11 @@
-.. _ipapi:
+.. _Developerdocs-fdiovpp-mastersrcvnetipipapi:
 
 .. toctree::
 
 IP
-=========================================
+====================================================================
+Source: /vnet/ip/ip.api
+
 This file defines vpp IP control-plane API messages which are generally called through a shared memory interface.
 
 ip_table_add_del
@@ -260,10 +262,6 @@ interface used to reach neighbor
 u8[16] - dst_address
 ------------------------------------------------------------------
 ip4 or ip6 address of the neighbor */ autoreply define ip_neighbor_add_del { u32 client_index; u32 context; u32 sw_if_index; /* 1 = add, 0 = delete
-
-/* - 1
-------------------------------------------------------------------
-
 
 u32 - context
 ------------------------------------------------------------------
@@ -1484,10 +1482,6 @@ Parameters:
 u32 - client_index
 ------------------------------------------------------------------
 opaque cookie to identify the sender
-
-/* - 1
-------------------------------------------------------------------
-
 
 u8 - enable_disable
 ------------------------------------------------------------------
